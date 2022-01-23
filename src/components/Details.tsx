@@ -1,7 +1,7 @@
-interface numberProps {
+interface Props {
   number: number;
 }
-const Details = (props: numberProps) => {
+const Details = (props: Props) => {
   return (
     <>
       <p>Details: {props.number / 2}</p>
