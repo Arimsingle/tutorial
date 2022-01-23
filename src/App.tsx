@@ -5,7 +5,7 @@ function App() {
   const number = 10;
   return (
     <div className="App">
-      <p>App: {number}</p>
+      <p>Apps: {number}</p>
       <Details number={number} />
       <Posts number={number}/>
     </div>
